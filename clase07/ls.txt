@@ -1,0 +1,20 @@
+ls = listar el contenido del directorio de trabajo actual.
+ls / = listar el contenido del directorio raíz.
+ls .. = comando para listar el contenido del directorio padre un nivel más arriba.
+ls ../.. = contenidos dos niveles arriba.
+ls ~ = listar el contenido en el directorio personal del usuario.
+ls -d */ = listar solo los directorios.
+ls * = listar el contenido del directorio con sus subdirectorios.
+ls -R = Para listar todos los archivos y directorios con sus subdirectorios correspondientes hasta el último archivo.
+ls Downloads -R = especificar un directorio para ejecutar este comando.
+ls -s (la s es minúscula) = listar archivos o directorios con sus tamaños.
+ls -l = listar el contenido del directorio en un formato de tabla con columnas incluidas.
+ls -lh = listar los archivos o directorios en el mismo formato de tabla anterior, pero con otra columna que represente el tamaño de cada archivo/directorio
+ls -a = listar archivos o directorios, incluidos archivos o directorios ocultos.
+ls -t = listar archivos o directorios y ordenar por fecha de última modificación en orden descendente (de mayor a menor).
+ls -tr = invertir el orden de clasificación.
+ls -S (la S es mayúscula) = listar archivos o directorios y ordenar por tamaño en orden descendente.
+ls -Sr = invertir el orden de clasificación.
+Lista de archivos en formato largo, incluidos los archivos ocultos
+	ls -l -a o ls -a -l o ls -la o ls -al
+

@@ -1,0 +1,10 @@
+Ejemplo de url = https://raw.githubusercontent.com/datasets/airport-codes/master/data/airport-codes.csv
+
+curl testdomain.com = Esto generará el código fuente completo de la página de inicio del dominio. Si no se especifica ningún protocolo, cURL lo interpretará a HTTP.
+curl -O http://testdomain.com/danillo : se guardará esto como danillo.
+curl -o callupe http://testdomain.com/danillo : se guardará esto como callupe.
+curl -C - -O  http://testdomain.com/testfile.tar.gz = Si por alguna razón, la descarga se interrumpe, puedes reanudarla.
+curl -O http://testdomain.com/testfile.tar.gz -O http://mydomain.com/myfile.tar.gz = ambién podemos descargar varios archivos.
+guardar el url dentro de nuestra carpeta, ejemplo : 
+	curl https://raw.githubusercontent.com/datasets/airport-codes/master/data/airport-codes.csv > Aeropuertos1.csv
+

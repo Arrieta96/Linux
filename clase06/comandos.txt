@@ -1,0 +1,12 @@
+Cancelar un proceso con los comandos:
+
+top = permite conocer información sobre el servidor en tiempo real: carga del servidor, días que lleva encendido, usuarios conectados por SSH… Para poder ejecutar este comando es necesario acceder al servidor por SSH.
+
+kill = al escribir el comando top presionar k luego ingresamos el PID y presionamos dos veces enter O el comando : 
+	kill -9 PID(codigo del proceso).
+	kill -9 pid1 pid2 pid3 (cancelar multiples procesos)
+	
+Finalizar un proceso:
+	pkill chrome (esta variación puedes especificar el nombre del proceso o un patrón para encontrar un proceso)
+	killall chrome (hace una coincidencia de nombre exacto, mientras que pkill puede hacer una coincidencia de patrón)
+	

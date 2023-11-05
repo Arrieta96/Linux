@@ -1,0 +1,18 @@
+| = Combinación de varios comandos que se ejecutan simultáneamente, donde el resultado del primero se envía a la entrada del siguiente.
+
+Ejemplos
+history | grep "rm" = ver nuestro historial de comandos que tengan la expresion "rm".
+
+Si se quiere ver todos los archivos que hay en el directorio /usr/bin, se ejecuta lo siguiente: 
+	ls /usr/bin | more
+
+Salida de un listado de ficheros y directorios:
+	ps aux | grep office | less
+	
+Ver las líneas que tiene un fichero ejemplo.txt o la cantidad de procesos en marcha (recuerda restar 1, porque la primera línea es la cabecera) e incluso la cantidad de ficheros o directorios:
+	cat ejemplo.txt | wc -l
+	ps aux | wc -l
+	ls | wc -l
+Localizar una línea o palabra concreta, por ejemplo la IP que comienza por 192.168 de las interfaces de red activas:
+	ifconfig | grep 192.168
+	

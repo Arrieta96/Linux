@@ -1,0 +1,12 @@
+find / = busca en todo el sistema.
+find . = busca en la carpeta en la que estás trabajando actualmente (directorio actual).
+find ~ = para buscar desde tu directorio home.
+find / -size 10M = archivos que tengan exactamente 10 megabytes de tamaño.
+find / -size +5G = archivos de tu disco que tengan más de 5 Gigabytes de tamaño.
+find / -user danillo = archivos de un determinado propietario.
+find / -group classroom = archivos a través de nombres de grupo.
+find / -empty = buscar archivos y carpetas vacíos en tu sistema.
+find / -exec = buscar todos los ejecutables guardados en tu disco.
+find / -read = buscar archivos legibles.
+
+

@@ -1,0 +1,13 @@
+grep = buscar el patrón dado no sólo en uno sino en múltiples archivos.
+grep -c = conteo de palabras que coinciden con la búsqueda.
+grep nombreArchivo.txt -e "nombreQueBuscamos" = buscar expresion dentro del archivono es case sensitive).
+grep -i nombreArchivo.txt -e "nombreQueBuscamos" = buscar expresion dentro del archivo(es case sensitive).
+grep -i -n nombreArchivo.txt -e "nombreQueBuscamos" = buscar expresion dentro del archivo y en que posicion se encuentra.
+grep -l palabra_a_buscar ./* = encontrar una palabra en un conjunto de archivos.
+Busqueda multiple:
+	grep búsqueda1 archivo | grep búsqueda2 archivo
+Buscar la palabra 'xxxx' en todo el archivo y guardar el resultado en un nuevo archivo:
+	grep ls.txt -e "listar" > resultados.txt
+	
+	
+

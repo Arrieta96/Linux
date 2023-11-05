@@ -1,0 +1,30 @@
+pwd = ver donde nos encontramos.
+ls = listar / ls -l = listar y descripcion / ls - lh = listar y descripcion completa.
+clear = limpiar terminal.
+cat > NombreDeTexto.txt = crear archivo de texto y editar en la terminal.
+ctrl + d = regresar al terminal.
+mkdir = crear carpeta.
+cd /NombreCarpeta/ = te lleva a la carpeta (solo directorios).
+cd ~/Carpeta/ = te lleva a la carpeta .
+cd .. = retroceder una carpeta. 
+man ls = manual.
+q = salir de un archivo de lectura.
+./NombreArchivo.sh = abrir archivo ejecutable.
+mv = mover y actualizar nombre del archivo conservando el contenido.
+touch = crear archivo nuevo.
+rm = eliminar archivo.
+rm -rf = eliminar a la fuerza(carpeta).
+history = ver el historial de comandos.
+ wich + "comando" : Ejm: which ls = muestra donde se encuentra el comando. 
+ nano = editor de texto plano dentro de nuestra terminal. Salir = ctrl + x y enter
+ cat = leer el archivo de texto.
+ ls -lha = abrir archivos ocultos.
+ 
+
+ 
+ Atajos
+ ctrl + l = limpiar consola.
+ alias = variable que nos permite agrupar comandos
+ Ejemplo:
+ 	alias ll='ls -lh'
+   

@@ -1,0 +1,12 @@
+Al declarar un alias como lo hemos visto en clases pasadas => alias ll='ls -lh' o alias abrirAplicacion='direccionDeAplicacion'  solo podra ejecutarse dentro del terminal abierto, sin embargo si abrimos otro terminal e intentamos abrir el alias 'abrirAplicacion' no se podra ya que se reestablece los alias definidos previamente ya que es un alias temporal.
+
+
+El .bashrc es un script que se ejecuta cada vez que se inicia una nueva sesión de terminal en modo interactivo. Esto es lo que ocurre cuando se abre una nueva ventana de terminal pulsando Ctrl + Alt + T o simplemente abrir una nueva pestaña de la terminal.
+
+Podemos definir alias permanentes dentro de '.bashrc'
+con la siguiente instruccion 
+ 	nano .bashrc 
+luego agregar: 
+ 	alias abrirAplicacion='direccionDeAplicacion'
+ 	
+Esto nos permite un acceso directo y llamarlo desde cualquier terminal abierta. Sin embargo tener cuidado ya que podemos tirar el terminal y lineas de comandos.

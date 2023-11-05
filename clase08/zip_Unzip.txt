@@ -1,0 +1,22 @@
+Comprimir archivos:
+	zip archivosCompresos *.csv(todo los archivos con extension csv)
+
+Mostrar detalles:
+	zipdetails twofiles.zip
+
+Actualizar archivos de un zip : 
+	zip –u sampleZipFile.zip ExampleFile2.txt
+
+Eliminar archivos de un zip :
+	zip –d sampleZipFile.zip ExampleFile.txt
+	
+Mover un archivo:
+	zip –r sampleZipFile.zip MyDirectory
+
+
+Unzip : descomprimir
+	unzip sampleZipFile.zip 
+
+Descomprimir varios archivos zip existentes en tu directorio de trabajo actual:
+	unzip ‘*.zip’
+

@@ -1,0 +1,10 @@
+Definicion
+
+Interfaz grafica muy sencilla la cual nos permite interactuar con la computadora con instrucciones escritas muy simples. Con esta herramienta podemos dar ordenes al computador escritas en linea de texto. Podremos crear directorios, navegar entre nuestro sistema, cambiar permisos, copiar, pegar, descomprimir, buscar archivos, entre otras cosas mas.
+
+Beneficios
+
+Mejor rendimiento ya que utilizamos una interfaz que es muy ligera.
+Poca probabilidad que el programa deje de responder.
+Ejecutar tareas mas rapidamente.
+ 

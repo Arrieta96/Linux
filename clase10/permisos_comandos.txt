@@ -1,0 +1,54 @@
+chmod = cambia permisos de los archivos.
+
+Ejemplos
+1. Asignar permisos usando notación numérica
+	sudo chmod [OPTIONS] nombre de archivo de valor_numérico
+	
+2. Asignación recursiva de permisos a directorios
+chmod 755 -R nombre_directorio
+ 	chmod 755 -R /home/linuxtechi/data
+ 
+3. Asignar permisos usando notación de texto
+chmod [OPTIONS] [ u g o a ] [ – + = ] [ r, w, x ] Archivo
+	tu: usuario
+	g : grupo
+	o : otro
+	a: todo (Esto incluye todo lo anterior)
+	– : la bandera elimina los permisos de archivo de un usuario específico.
+	+ : Esto agrega/agrega permisos a un usuario específico.
+	= : Esto asigna permisos distintos a los usuarios especificados y elimina los permisos anteriores del segmento de usuarios.
+	
+4. Asignar permisos de lectura a un archivo
+chmod o=r nombre de archivo
+	sudo chmod o=r file1.txt
+	
+5. Asignar permisos de ejecución al propietario del archivo y del grupo
+sudo chmod ug+x nombre de archivo
+	sudo chmod ug+x file1.txt
+	
+6. Asignar diferentes permisos a archivo, grupo y otros
+sudo chmod u=rwx,g=rw,o=r nombre de archivo
+	
+7. Eliminar todos los permisos para otros usuarios
+sudo chmod o= nombre de archivo
+sudo chmod o-rwx nombre de archivo
+
+8. Asignar permisos usando un archivo de referencia
+sudo chmod –reference=ref_file nombre de archivo
+	sudo chmod --reference=file1.txt file2.txt
+	
+9. Asignar permiso de ejecución solo a directorios
+	chmod a+X *
+
+
+Link: 
+https://redessy.com/9-ejemplos-rapidos-de-comandos-chmod-en-linux/
+
+
+
+
+
+
+
+
+
